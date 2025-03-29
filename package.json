@@ -1,0 +1,52 @@
+{
+"name": "Dark shuter-md",    
+"version": "2.0.0",
+"scripts": {
+"start": "pm2 start index.js --deep-monitoring --attach --name Dark-shuter",
+"stop": "pm2 stop Dark-shuter",
+"restart": "git pull && npm stop && npm start",
+"stash": "git stash && git stash drop"
+},
+"dependencies": {
+
+"@whiskeysockets/baileys": "latest",
+  "ruhend-scraper" : "^7.0.6",
+    "google-tts-api": "^2.0.2",
+"@adiwajshing/keyed-db": "^0.2.4",
+"pino": "^7.0.5",
+"pm2": "^5.2.0",
+"@ffmpeg-installer/ffmpeg": "^1.1.0",
+"wa-sticker-formatter": "^4.3.2",
+"os": "^0.1.2",
+"util": "^0.12.4",
+"fb-downloader-scrapper": "^2.0.0",
+"seedr": "latest",
+"@sl-code-lords/image-library": "^1.0.0",
+"axios": "^1.7.7",
+"@dark-yasiya/imgbb.js": "^0.0.1",
+"ytsearch-venom": "^1.0.0",
+"ruhend-scraper": "latest",
+"link-preview-js": "^3.0.4",
+"file_size_url": "1.0.4",
+"mime-types": "^2.1.35",
+"sequelize": "^6.28.0",
+ "mrnima-moviedl": "^1.0.0",
+"form-data": "^4.0.0",
+"async-g-i-s": "^1.4.0",
+"@sasmeee/wabetainfo": "^1.0.2",
+"express": "latest",
+"cheerio": "^1.0.0-rc.12",
+
+"fs-extra": "^11.1.0",
+  
+"buffer": "latest",
+"path": "^0.12.7",
+"node-fetch": "^2.6.1" ,
+"got": "^11.8.2",
+"megajs": "^1.1.0",
+"stream": "^0.0.2",
+"vm": "^0.1.0",
+"qrcode-terminal": "^0.12.0"
+}
+}
+

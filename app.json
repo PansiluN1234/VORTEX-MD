@@ -1,0 +1,38 @@
+{
+  "name": "DARK-SHUTER-MD-V2",
+  "description": "DARK SHUTER MD simple and essay to deploy wa bot",
+  "logo": "https://github.com/DarksadasYT1/DARK-SHUTER-HARD/blob/main/LOGO/darkshuterv2.jpeg?raw=true",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "multi device", "dark-shuter"],
+  "success_url": "/",
+
+  "env": {
+    "GITHUB_USER_NAME": {
+      "description": "Put the user name here.",
+      "required": true
+    },  
+
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true
+    },  
+
+
+    "GITHUB_AUTH_TOKEN": {
+      "description": "Put your github authtoken here.",
+      "required": true
+    },
+    "REPO_NAME": {
+      "description": "Put your github authtoken here.",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+  
+  
+}
